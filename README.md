@@ -26,12 +26,15 @@ This project is created with [Expo](https://expo.se/) and [React Native](https:/
 
 Instructions to download NodeJS here: [Download NodeJS](https://nodejs.org/en/download/)
 
-If NodeJS is installed, download the repo and follow the intstructions below to run the application:
-1. **Install dependencies:**
+If NodeJS is installed, [**download this repo**](https://github.com/simonduchen/AccShares/archive/master.zip) and follow the intstructions below to run the application:
+
+1. **Unzip the repo** 
+
+2. **Install dependencies:**
 
 `npm install`
 
-2. **Run the application with a local expo server:** 
+3. **Run the application with a local expo server:** 
 
 `npm start` or `expo start`
 
