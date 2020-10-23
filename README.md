@@ -20,7 +20,7 @@ There are two test users that can be found in userdata.json, they are used to lo
 
 If your device is compatible with a fingerprint scanner you can also login directly using that.
 
-## Instructions to run:
+## Instructions to run the application
 
 This project is created with [Expo](https://expo.se/) and [React Native](https://reactnative.dev/) which both are NodeJs frameworks.
 
