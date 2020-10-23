@@ -7,7 +7,7 @@ To find out more about this project go to https://barklinnea0.wixsite.com/mobile
 ## About the project
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
-Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.
+Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that the project aimed for.
 
 There are two test users that can be found in userdata.json, they are used to login to the application 
 
@@ -24,7 +24,7 @@ If your device is compatible with a fingerprint scanner you can also login direc
 
 ## Instructions to run:
 
-This project is created with Expo and React Native which both are NodeJs framworks.
+This project is created with Expo and React Native which both are NodeJs frameworks.
 
 Instructions to download NodeJS here: https://nodejs.org/en/download/
 
