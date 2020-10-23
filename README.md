@@ -3,7 +3,7 @@ This is a course project at Chalmers Univerity of Technology in the course Mobil
 
 Developed by Simon Duchén and Linnéa Bark.
 
-To find out more about this project go to our [**project website**](https://barklinnea0.wixsite.com/mobilecomputing)
+To find out more about this project go to our [**project website**](https://barklinnea0.wixsite.com/mobilecomputing) !
 ## About the project
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
@@ -26,7 +26,7 @@ If your device is compatible with a fingerprint scanner you can also login direc
 
 This project is created with [Expo](https://expo.se/) and [React Native](https://reactnative.dev/) which both are NodeJs frameworks.
 
-Instructions to download NodeJS here: https://nodejs.org/en/download/
+Instructions to download NodeJS here: [Download NodeJS](https://nodejs.org/en/download/)
 
 **First install dependencies:**
 
