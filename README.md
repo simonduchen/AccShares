@@ -10,6 +10,7 @@ This project is a native prototype of a mobile user interface for a smart lock a
 Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.
 
 There are two test users that can be found in userdata.json that can be used to login to the application 
+
 Test user 1: 
 
     username: simonduchen
