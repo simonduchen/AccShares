@@ -21,6 +21,7 @@ Run the application through a local expo server:
 `npm start` or `expo start`
 
 A new tab will open in your browser which contains the metro bundler which allows you to run the application on your device or in the browser.
+
 You can download the Expo app on your mobile and use the QR-code to automatically connect to the Expo server and run the application.
 
 or
