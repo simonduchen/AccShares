@@ -15,9 +15,11 @@ This project is created with Expo and React Native which both are NodeJs framwor
 Instructions to NodeJS download here: https://nodejs.org/en/download/
 
 First install dependencies:
+
 `npm install`
 
 Run the application through a local expo server: 
+
 `npm start` or `expo start`
 
 A new tab will open in your browser which contains the metro bundler which allows you to run the application on your device or in the browser.
