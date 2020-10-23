@@ -38,9 +38,7 @@ Instructions to download NodeJS here: https://nodejs.org/en/download/
 
 A new tab will open in your browser which contains the metro bundler which allows you to run the application on your device or in the browser.
 
-You can download the Expo app on your device and use the QR-code to automatically connect to the Expo server and run the application.
-
-> **Download links:**
+**An Expo app can be downloaded on your device and to be able to use the QR-code and automatically connect to the Expo server and run the application.**Download links:**
 
 > **Google play:** https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
 
