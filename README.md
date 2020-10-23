@@ -26,7 +26,9 @@ You can download the Expo app on your mobile and use the QR-code to automaticall
 or
 
 You can also run the application on a emulator, you can find the instructions here: 
+
 Android:
 https://docs.expo.io/workflow/android-studio-emulator/ 
+
 IOS:
 https://docs.expo.io/workflow/ios-simulator/
