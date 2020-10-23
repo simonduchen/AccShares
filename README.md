@@ -26,7 +26,7 @@ If your device is compatible with a fingerprint scanner you can also login direc
 
 This project is created with Expo and React Native which both are NodeJs framworks.
 
-Instructions to NodeJS download here: https://nodejs.org/en/download/
+Instructions to download NodeJS here: https://nodejs.org/en/download/
 
 First install dependencies:
 
