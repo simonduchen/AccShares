@@ -3,11 +3,23 @@ This is a deliverable for a course project at Chalmers Univerity of Technology i
 
 Developed by Simon Duchen and Linnea Bark.
 
-To find out more of this project go to https://barklinnea0.wixsite.com/mobilecomputing
+To find out more about this project go to https://barklinnea0.wixsite.com/mobilecomputing
 ## Mobile Computing Project: AccShares
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
-Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.  
+Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.
+
+There are two test users that can be found in userdata.json that can be used to login to the application 
+Test user 1: 
+
+    username: simonduchen
+    password: password
+Test user 2: 
+
+    username: linneabark
+    password: password
+
+If your device is compatible with a fingerprint scanner you can also login directly using that.
 
 ## Instructions to run:
 
