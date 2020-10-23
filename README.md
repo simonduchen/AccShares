@@ -1,5 +1,7 @@
 # AccShares
 This is a deliverable for a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
+
+To find out more of this project go to https://barklinnea0.wixsite.com/mobilecomputing
 ## Mobile Computing Project: AccShares
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
