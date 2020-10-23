@@ -7,6 +7,17 @@ import ArrowRight from '../assets/arrow-right.png';
 import BottomTabs from '../components/BottomTabs';
 
 class More extends Component {
+    componentDidMount() {
+        this.props.navigation.setOptions({headerRight: () => 
+            (
+                <View>
+                    <TouchableOpacity style={{width: 80}} onPress={() => (this.props.navigation.navigate('Login'))}>
+                        <Text style={{color: "white", fontWeight: 'bold'}}>Sign Out</Text>
+                    </TouchableOpacity>
+                </View>
+            )
+        });
+    }
     render() {
         return (
             <ImageBackground style={styles.container} source={background}>

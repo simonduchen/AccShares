@@ -13,6 +13,17 @@ class Access extends Component {
             list: db.userDatabase
         };
     }
+    componentDidMount() {
+        this.props.navigation.setOptions({headerRight: () => 
+            (
+                <View>
+                    <TouchableOpacity style={{width: 80}} onPress={() => (this.props.navigation.navigate('Login'))}>
+                        <Text style={{color: "white", fontWeight: 'bold'}}>Sign Out</Text>
+                    </TouchableOpacity>
+                </View>
+            )
+        });
+    }
     filterList(list) {
         if(this.state.searchPhrase.length == 0)
             return []

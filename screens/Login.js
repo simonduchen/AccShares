@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TextInput, Image, ImageBackground, TouchableOpacity, Alert, KeyboardAvoidingView, Platform} from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image, ImageBackground, TouchableOpacity, Alert, KeyboardAvoidingView, Platform, AsyncStorage} from 'react-native';
 import Logo from "../assets/Logo.png";
 import background from "../assets/background.png";
 import * as LocalAuthentication from 'expo-local-authentication';
 import db from "../userdata.json";
+import { asin } from 'react-native-reanimated';
 class Login extends Component {
 
     constructor(props) {
@@ -40,8 +41,10 @@ class Login extends Component {
         this.setState({
             result: JSON.stringify(result),
         });
-        if(result)
+        if(result) 
             this.props.navigation.navigate('Home');
+            this.props.navigation.reset({index: 0, routes: [{name: 'Home'}]})
+        
     };
 
     passwordAuth = () => {
@@ -57,7 +60,7 @@ class Login extends Component {
                 pwAuth = true; 
         }); 
         
-        if(userAuth && pwAuth)
+        if(userAuth && pwAuth) 
             this.props.navigation.navigate('Home');
         else
             return Alert.alert(

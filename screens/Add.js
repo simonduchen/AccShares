@@ -26,6 +26,17 @@ class Add extends Component {
             mode: ''
         }
     }
+    componentDidMount() {
+        this.props.navigation.setOptions({headerRight: () => 
+            (
+                <View>
+                    <TouchableOpacity style={{width: 80}} onPress={() => (this.props.navigation.navigate('Login'))}>
+                        <Text style={{color: "white", fontWeight: 'bold'}}>Sign Out</Text>
+                    </TouchableOpacity>
+                </View>
+            )
+        });
+    }
     showToDateTimePicker = (mode) => {
         this.setState({showToDatePicker: true, mode});
     }

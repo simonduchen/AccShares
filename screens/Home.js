@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground, SafeAreaView, Image, SectionList} from 'react-native';
+import { StyleSheet, Text, View, ImageBackground, SafeAreaView, Image, SectionList, Button} from 'react-native';
 import background from "../assets/background.png";
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
@@ -18,7 +18,18 @@ class Home extends Component {
             temporaryListData: db.temporaryAccess
         };
     }
-    
+    componentDidMount() {
+        this.props.navigation.setOptions({headerRight: () => 
+            (
+                <View>
+                    <TouchableOpacity style={{width: 80}} onPress={() => (this.props.navigation.navigate('Login'))}>
+                        <Text style={{color: "white", fontWeight: 'bold'}}>Sign Out</Text>
+                    </TouchableOpacity>
+                </View>
+            )
+        });
+    }
+
     scanFingerprint = async () => {
         let result = await LocalAuthentication.authenticateAsync(
             {promptMessage: "Scan your fingerprint to open the door"}
