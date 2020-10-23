@@ -11,11 +11,11 @@ Since this is a prototype there is no backend actually storing data or connectin
 
 There are two test users that can be found in userdata.json, they are used to login to the application 
 
-Test user 1: 
+**Test user 1:** 
 
     username: simonduchen
     password: password
-Test user 2: 
+**Test user 2:** 
 
     username: linneabark
     password: password
@@ -28,11 +28,11 @@ This project is created with Expo and React Native which both are NodeJs framewo
 
 Instructions to download NodeJS here: https://nodejs.org/en/download/
 
-First install dependencies:
+**First install dependencies:**
 
 `npm install`
 
-Run the application through a local expo server: 
+**Run the application with a local expo server:** 
 
 `npm start` or `expo start`
 
@@ -40,18 +40,17 @@ A new tab will open in your browser which contains the metro bundler which allow
 
 You can download the Expo app on your device and use the QR-code to automatically connect to the Expo server and run the application.
 
-Download links:
+**Download links:**
 
 Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
 
 Appstore: https://apps.apple.com/se/app/expo-client/id982107779
 
-or
 
-You can run the application on a emulator, you can find the instructions here: 
+You can run the application on a emulator, the instructions can be found here: 
 
-Android:
+**Android:**
 https://docs.expo.io/workflow/android-studio-emulator/ 
 
-IOS:
+**IOS:**
 https://docs.expo.io/workflow/ios-simulator/
