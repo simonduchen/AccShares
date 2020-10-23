@@ -40,13 +40,13 @@ A new tab will open in your browser which contains the metro bundler which allow
 
 You can download the Expo app on your device and use the QR-code to automatically connect to the Expo server and run the application.
 
-**Download links:**
+> **Download links:**
 
-> Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
+> **Google play:** https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
 
-> Appstore: https://apps.apple.com/se/app/expo-client/id982107779
+> **Appstore:** https://apps.apple.com/se/app/expo-client/id982107779
 
-* You can run the application on a emulator, the instructions can be found here: 
+**You can run the application on a emulator, the instructions can be found here:**
 
 > **Android:**
 > https://docs.expo.io/workflow/android-studio-emulator/ 
