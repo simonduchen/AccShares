@@ -1,0 +1,105 @@
+{
+    "authorized": [
+        {
+            "username": "simonduchen",
+            "password": "password",
+            "id": 1
+        },
+        {
+            "username": "linneabark",
+            "password": "password",
+            "id": 2
+        }
+    ],
+    "permanentAccess": [
+        {
+            "title": "Front door",
+            "id": "1337"
+        },
+        {
+            "title": "Garage",
+            "id": "0666"
+        },
+        {
+            "title": "Office",
+            "id": "6969"
+        }
+    ],
+    "temporaryAccess": [
+        {
+            "title": "30 october",
+            "data": [
+                {
+                    "title": "Front door",
+                    "name": "Pelle Andersson",
+                    "id": "1"
+                }
+            ]
+        },
+        {
+            "title": "1 November",
+            "data": [
+                {
+                    "title": "Front door",
+                    "name": "Erik Gustavsson",
+                    "id": "2"
+                },
+                {
+                    "title": "Garage",
+                    "name": "Ellen Svensson",
+                    "id": "3"
+                }
+            ]
+        },
+        {
+            "title": "3 November",
+            "data": [
+                {
+                    "title": "Front door",
+                    "name": "Pelle Andersson",
+                    "id": "4"
+                }
+            ]
+        }
+    ],
+    "userDatabase": [
+        {
+            "title": "Simon Duchen",
+            "id": "1337",
+            "pno": "9703076909"
+        },
+        {
+            "title": "Linnea Bark",
+            "id": "0666",
+            "pno": "9602134940"
+        },
+        {
+            "title": "Pelle Andersson",
+            "id": "6969",
+            "pno": "9602134940"
+        },
+        {
+            "title": "Ellen Svensson",
+            "id": "8000",
+            "pno": "9602134940"
+        }
+    ],
+    "devices": [
+        {
+            "title": "Front door",
+            "id": "1"
+        },
+        {
+            "title": "Garage",
+            "id": "2"
+        },
+        {
+            "title": "Office",
+            "id": "3"
+        },
+        {
+            "title": "Back door",
+            "id": "4"
+        }
+    ]
+}
