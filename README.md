@@ -1,7 +1,7 @@
 # AccShares
-This is a deliverable for a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
+This is a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
 
-Developed by Simon Duchen and Linnea Bark.
+Developed by Simon Duchén and Linnéa Bark.
 
 To find out more about this project go to https://barklinnea0.wixsite.com/mobilecomputing
 ## Mobile Computing Project: AccShares
