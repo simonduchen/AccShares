@@ -1,21 +1,21 @@
 # AccShares
-This is a deliverable for a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
+This is a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
 
-Developed by Simon Duchen and Linnea Bark.
+Developed by Simon Duchén and Linnéa Bark.
 
-To find out more about this project go to https://barklinnea0.wixsite.com/mobilecomputing
-## Mobile Computing Project: AccShares
+To find out more about this project go to our [**project website**](https://barklinnea0.wixsite.com/mobilecomputing) !
+## About the project
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
-Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.
+Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that the project aimed for.
 
 There are two test users that can be found in userdata.json, they are used to login to the application 
 
-Test user 1: 
+**Test user 1:** 
 
     username: simonduchen
     password: password
-Test user 2: 
+**Test user 2:** 
 
     username: linneabark
     password: password
@@ -24,34 +24,30 @@ If your device is compatible with a fingerprint scanner you can also login direc
 
 ## Instructions to run:
 
-This project is created with Expo and React Native which both are NodeJs framworks.
+This project is created with [Expo](https://expo.se/) and [React Native](https://reactnative.dev/) which both are NodeJs frameworks.
 
-Instructions to download NodeJS here: https://nodejs.org/en/download/
+Instructions to download NodeJS here: [Download NodeJS](https://nodejs.org/en/download/)
 
-First install dependencies:
+1. **Install dependencies:**
 
 `npm install`
 
-Run the application through a local expo server: 
+2. **Run the application with a local expo server:** 
 
 `npm start` or `expo start`
 
 A new tab will open in your browser which contains the metro bundler which allows you to run the application on your device or in the browser.
 
-You can download the Expo app on your device and use the QR-code to automatically connect to the Expo server and run the application.
+**An Expo app can be downloaded on your device and to be able to use the QR-code and automatically connect to the Expo server and run the application. Download links:**
 
-Download links:
+> **Google play:** https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
 
-Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
+> **Appstore:** https://apps.apple.com/se/app/expo-client/id982107779
 
-Appstore: https://apps.apple.com/se/app/expo-client/id982107779
+**You can run the application on a emulator, the instructions can be found here:**
 
-or
+> **Android:**
+> https://docs.expo.io/workflow/android-studio-emulator/ 
 
-You can run the application on a emulator, you can find the instructions here: 
-
-Android:
-https://docs.expo.io/workflow/android-studio-emulator/ 
-
-IOS:
-https://docs.expo.io/workflow/ios-simulator/
+> **IOS:**
+> https://docs.expo.io/workflow/ios-simulator/
