@@ -42,15 +42,14 @@ You can download the Expo app on your device and use the QR-code to automaticall
 
 **Download links:**
 
-Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
+> Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
 
-Appstore: https://apps.apple.com/se/app/expo-client/id982107779
+> Appstore: https://apps.apple.com/se/app/expo-client/id982107779
 
+* You can run the application on a emulator, the instructions can be found here: 
 
-You can run the application on a emulator, the instructions can be found here: 
+> **Android:**
+> https://docs.expo.io/workflow/android-studio-emulator/ 
 
-**Android:**
-https://docs.expo.io/workflow/android-studio-emulator/ 
-
-**IOS:**
-https://docs.expo.io/workflow/ios-simulator/
+> **IOS:**
+> https://docs.expo.io/workflow/ios-simulator/
