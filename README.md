@@ -1,12 +1,13 @@
 # AccShares
 This is a deliverable for a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
 
+Developed by Simon Duchen and Linnea Bark.
+
 To find out more of this project go to https://barklinnea0.wixsite.com/mobilecomputing
 ## Mobile Computing Project: AccShares
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
 
-This project is developed by Simon Duchen and Linnea Bark.
-  
+Since this is a prototype there is no backend actually storing data or connecting the application to any smart lock devices, it is only to show a native UI that contains the functionality and design that project aimed for.  
 
 ## Instructions to run:
 
@@ -24,11 +25,17 @@ Run the application through a local expo server:
 
 A new tab will open in your browser which contains the metro bundler which allows you to run the application on your device or in the browser.
 
-You can download the Expo app on your mobile and use the QR-code to automatically connect to the Expo server and run the application.
+You can download the Expo app on your device and use the QR-code to automatically connect to the Expo server and run the application.
+
+Download links:
+
+Google play: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=sv
+
+Appstore: https://apps.apple.com/se/app/expo-client/id982107779
 
 or
 
-You can also run the application on a emulator, you can find the instructions here: 
+You can run the application on a emulator, you can find the instructions here: 
 
 Android:
 https://docs.expo.io/workflow/android-studio-emulator/ 
