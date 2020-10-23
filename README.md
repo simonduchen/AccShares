@@ -1,8 +1,6 @@
 # AccShares
 This is a course project at Chalmers Univerity of Technology in the course Mobile Computing. 
 
-Developed by Simon Duchén and Linnéa Bark.
-
 To find out more about this project go to our [**project website**](https://barklinnea0.wixsite.com/mobilecomputing) !
 ## About the project
 This project is a native prototype of a mobile user interface for a smart lock application that uses the fingerprint scanner to verify physical accesses that are shared.
@@ -51,3 +49,7 @@ A new tab will open in your browser which contains the metro bundler which allow
 
 > **IOS:**
 > https://docs.expo.io/workflow/ios-simulator/
+
+
+Developed by Simon Duchén and Linnéa Bark.
+
